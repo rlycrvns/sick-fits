@@ -80,7 +80,7 @@ export default function CreateProduct() {
           <input
             type="number"
             id="price"
-            price="price"
+            name="price"
             placeholder="price"
             value={inputs.price}
             onChange={handleChange}
