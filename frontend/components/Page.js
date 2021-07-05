@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     --lightGrey: #E1E1E1;
     --offWhite: #ededed;
     --maxWidth: 1000px;
-    --bs: 0 12px 24px 0 rgba(0,0,00.09);
+    --bs: 0 12px 24px 0 rgba(0,0,0,0.2);
     box-sizing: border-box;
     font-size: 62.5%;
   }
