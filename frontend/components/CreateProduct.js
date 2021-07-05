@@ -87,7 +87,7 @@ export default function CreateProduct() {
           />
         </label>
         <label htmlFor="description">
-          Price
+          Description
           <textarea
             id="description"
             name="description"
