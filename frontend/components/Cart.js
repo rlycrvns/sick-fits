@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import RemoveFromCart from './RemoveFromCart';
 import CartStyles from './styles/CartStyles';
 import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
@@ -40,6 +41,7 @@ function CartItem({ cartItem }) {
             each
           </em>
         </p>
+        <RemoveFromCart id={cartItem.id} />
       </div>
     </CartItemStyles>
   );
